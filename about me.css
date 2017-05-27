@@ -1,0 +1,120 @@
+	
+	body {
+		
+		
+		margin: 0px;
+		padding: 0px;
+		font-family:'Open Sans', Arial;
+		font-size: 12px;
+	}
+	
+	#container {
+		margin:0 auto;
+		width:1000px;
+		margin-bottom: 20px;
+		margin-top: 130px;
+
+	}
+	#content {
+		background-color:#FFF;
+		-webkit-box-shadow: 15px 16px  40px rgba(0, 0, 0, 0.5) ;
+		-moz-box-shadow: 15px  16px 40px rgba(0, 0, 0, 0.5) ;
+		box-shadow: 15px 16px 40px rgba(0, 0, 0, 0.5);
+	}
+	
+	.hidden {
+		display: none;
+	}
+	.clear {
+		clear:both;
+	}
+	
+    h1 {font-size: 37px;}
+	h2 {font-size: 30px;}
+	h3 {font-size: 20px;}
+	h4 {font-size: 15px;}
+	h5 {font-size: 13px;}
+	h6 {font-size: 12px;}
+	
+	
+	strong {
+		font-weight: bold;
+		color: #333;
+	}
+		
+	
+   #profile {
+		background-image:url(../images/header-shadow.png), url(../images/header-bg.png);
+		background:url(../images/header-bg.png) repeat-x\0/; /* For ie8 */
+		background-position:center bottom, left top;
+		background-repeat:repeat-x;
+		overflow:hidden;
+		background-color:#fdd42f;		
+	}
+	
+	.about {
+		float:left;
+		margin-top:40px;
+		width:300px;
+		margin-left:90px;
+	}
+	 .photo-inner {
+		float:left;
+		background:url(../images/photo-inner.png) no-repeat;
+		width:235px;
+		height:212px;
+		padding:40px 20px;
+	}
+	.about .photo-inner img {
+		background-color:#FFF;
+	}
+	.about h1 {
+		font-weight:900;
+		color:#FFF;
+		line-height:34px;
+		margin-top:8px;
+
+	}
+	.about h3 {
+		margin-top:5px;
+		font-size:18px;
+		color:#FFF;
+		line-height:18px;
+	}
+	.about p {
+		font-size:14px;
+		margin-top:15px;
+		color:#bc9010;
+		line-height:20px;
+	}
+
+	
+	.personal-info {
+		float:right;
+		margin-top:30px;
+		width:310px;
+		min-height:230px;
+		padding:20px 0 0 20px;
+		border-left: 2px solid rgba(0,0,0,0.5);
+	}
+	.personal-info li {
+		list-style-type: none;
+		font-size:14px;
+		margin-bottom:10px;
+		overflow: hidden;
+	}
+	.personal-info li label {
+		color:#a87f09;
+		background-color:#f4c024;
+		float:left;
+		padding:4px 7px;
+		border-radius: 3px;
+		-moz-border-radius: 3px;
+		-webkit-border-radius: 3px;
+	}
+	.personal-info li span {
+		float:right;
+		width:170px;
+		color:#a87f09;
+	}
+	

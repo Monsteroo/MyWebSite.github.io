@@ -1,0 +1,21 @@
+body{
+	overflow-y: scroll;
+
+}
+h1{
+	margin: 25px;
+	font-size: 22px;
+	text-align: center;	
+}
+.info{
+	margin-top: 90px;
+}
+.map{
+	display: block;
+	text-align: center;
+}
+.main_h1{
+	background: rgba(0,0,0,.2);
+	margin-top:40px;
+	font-size: 36px;
+}

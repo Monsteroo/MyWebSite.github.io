@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="header.css">
+	<link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Lobster" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="My dreams.css">
+	<title>My Dreams</title>
+</head>
+<body>
+	<header>
+<div class="navigation">
+	<ul>
+		<li id="vm"><a class="VM1" href="Тест сайта.html"><span class="first">Vitaliy</span><span class="second">Masliy</span> </a> </li>
+		<li><a href="about me.html">About me</a> </li>
+		<li ><a class="list"  href="#">Gallery</a>
+		<ul class="drop">
+		 	<li><a href="Visited places.html">Visit places</a></li>
+		 	<li><a href="My dreams.html">My Dreams</a></li>
+		 	<li><a class="big" href="Where i want to go.html">Where I want to go</a></li>
+		 </ul> 
+		</li>
+		<li><a href="Hobby.html">Hobby</a> </li>
+		<li "><a class="list" href="#">Contacts</a>
+			<ul class="drop">
+				<li><a href="Date.html">Date</a></li>
+		 		<li><a href="Write me.html">Write me</a></li>
+			</ul>
+	</ul>
+</div>
+	 </header>
+	 <div class="y12">In 12 years</div>
+	 <div class="y18">In 18 years</div>
+	 <h1>My Dreams</h1>
+	 <div id="container">
+      <div><img src="Картінки/student.jpg" width="850" height="450" alt="Первичное изображение"></div>
+      <div><img src="Картінки/men.jpg" width="850" height="450" alt="Вторичное изображение" /></div>
+    </div>
+   
+  <script src="js/jquery-1.6.1.min.js"></script>  
+  <script src="js/jquery-ui-1.8.13.custom.min.js"></script>  
+  <script src="js/jquery.beforeafter-1.4.min.js"></script> 
+  <script type="text/javascript">
+    $(function(){
+      $('#container').beforeAfter({
+        animateIntro : true,
+        introDelay : 3000,
+        introDuration : 500,
+        showFullLinks : false,
+        introPosition : .0,
+        beforeLinkText : 'In 12 years',
+        afterLinkText : 'In 18 years',
+        cursor : 'col-resize',
+        clickSpeed : 200,
+        linkDisplaySpeed : 900,
+        dividerColor : 'red',
+        enableKeyboard : true,
+        keypressAmount : 15
+      });
+    });
+  </script> 
+
+</body>
+</html>

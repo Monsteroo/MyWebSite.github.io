@@ -1,0 +1,125 @@
+body {
+    background-image: url(Картінки/abstract-light-pink-background-smooth-1920x1080.jpg);
+    margin: 0px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    padding: 0px;
+
+}
+
+.navigation ul li#vm:hover {
+    background: transparent;
+}
+
+
+/*Header*/
+
+header {
+    background: rgba(0, 0, 0, 0.5);
+    opacity: 1;
+    max-width: 1920px;
+    padding: 0;
+
+}
+
+.navigation {
+    max-width: 1940px;
+    height: 80px;
+    margin: -20px;
+
+}
+
+.navigation ul li {
+    float: left;
+    list-style-type: none;
+    font-size: 25px;
+    height: 80px;
+    position: relative;
+}
+
+#vm {
+    font-size: 30px;
+    margin-right: 30%;
+    padding-left: none;
+    margin-left: none;
+    right: 2%;
+    font-family: 'Abril Fatface', cursive;
+}
+
+.first {
+    color: #16FF02;
+}
+
+.second {
+    color: #3D7BFD;
+}
+
+.navigation ul li a {
+    text-decoration: none;
+    padding: 0px;
+    display: block;
+    color: white;
+    margin-right: 0px;
+    float: left;
+    width: 180px;
+    display: block;
+    text-align: center;
+    line-height: 80px;
+    font-family: 'Lobster', cursive;
+}
+
+.navigation ul li:hover {
+    background: #A7B5FF;
+    transition: 0.6s linear;
+    z-index: 4;
+}
+
+.big {
+    font-size: 20px;
+}
+
+.navigation ul .drop {
+    position: absolute;
+    top: 100%;
+    display: none;
+    margin-left: 10px;
+    padding: 0px;
+    left: 5%;
+    margin-right: 0;
+    transition: 1s linear;
+}
+
+.navigation li:hover .drop {
+    display: block;
+    transition: 3s;
+    background: rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+    text-align: center;
+    padding: 0;
+    transition: 1s linear;
+}
+
+.navigation ul li a:hover {
+    text-decoration: underline;
+}
+
+.navigation ul li a.VM1:hover {
+    text-decoration: none;
+}
+
+.navigation ul li a.list::after {
+    content: "";
+    position: absolute;
+    border: 10px solid #fff;
+    border-color: #fff transparent transparent transparent;
+    top: 2.5em;
+    right: 3.1em;
+    transition: 0.5s;
+}
+
+.navigation ul li a.list:hover::after {
+    -webkit-transform: scaleX(-1);
+    -ms-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    transform: scaleX(-1);
+}

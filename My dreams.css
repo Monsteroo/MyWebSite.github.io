@@ -1,0 +1,20 @@
+#container{
+margin: auto;
+}
+h1{
+	font-size:36px;
+	text-align: center;
+	margin-top: 40px;
+}
+.y12,.y18{
+	position: absolute;
+	top: 55%;
+	font-size: 35px;
+	font-weight: bold;
+}
+.y12{
+	left: 4%;
+}
+.y18{
+	left: 85%;
+}

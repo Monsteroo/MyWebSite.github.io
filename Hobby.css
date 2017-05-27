@@ -1,0 +1,64 @@
+body{
+	margin:0;
+	padding: 0;
+	font:1em/2em sans-serif;
+	overflow-y: auto;
+	
+	}
+	
+img{
+	width: 600px;
+	height: 411px;
+	border-radius: 10px;
+	display: inline-block;
+
+}
+
+
+.img{
+	position: relative;
+	transition: 0.5s;
+	width: 300px;
+	height: 400px;
+	margin: 100px 0 0 90px ;
+	float:left;
+	
+}
+.text{
+	position: absolute;
+	top: 0px;
+	left: 0;
+	color: #fff;
+	text-align: center;
+	transition: 1s;
+	width: 600px; 
+	height: 411px;
+	opacity: 0;
+	
+}
+.text:hover{
+	opacity: 1;
+	transition: 1s;
+	background: rgba(0,0,0,0.7);
+	border-radius: 10px;
+}
+
+
+
+h3{
+	margin: 100px;
+}
+
+.img1{
+	position: absolute;
+	transition: 0.5s;
+	width: 500px;
+	height: 400px;
+	margin: 100px 0 0 750px ;
+	
+}
+.ribalka{
+	width: 600px;
+	height: 411px;
+	
+}

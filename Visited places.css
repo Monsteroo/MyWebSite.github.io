@@ -1,0 +1,36 @@
+body{
+	overflow-y: scroll;
+	-webkit-background-size: 150%;
+	background-size: cover;
+}
+img{
+	width: 400px;
+	height: 300px;
+	float: left;
+	margin-left: 0px;
+}
+figure{
+ float: right; 
+    border: 1px solid #333; 
+    padding: 7px; 
+    margin: 10px 0 5px 5px; 
+    background: #f0f0f0; 
+	text-align: center;
+	font-weight: bold; 
+	margin: 17px ;
+
+     }
+     .visited{
+     	margin-left: -20px;
+     }
+p{
+	text-align: center;
+	font-size: 40px;
+	padding-top: 40px;
+	font-weight: bold; 
+	letter-spacing: 10px;
+	font-family: 'Revalia', cursive;
+}
+.mov{
+	transition: 3s;
+}

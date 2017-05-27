@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="header.css">
+	<link rel="stylesheet" type="text/css" href="animate.css">
+	<script src = "js/jquery-3.0.0.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="Visited places.css">
+	<link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Lobster" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Revalia" rel="stylesheet">
+	<title>Visited places</title>
+</head>
+<body>
+	<header>
+<div class="navigation">
+	<ul>
+		<li id="vm"><a class="VM1" href="Тест сайта.html"><span class="first">Vitaliy</span><span class="second">Masliy</span> </a> </li>
+		<li><a href="about me.html">About me</a> </li>
+		<li ><a class="list"  href="#">Gallery</a>
+		<ul class="drop">
+		 	<li><a href="Visited places.html">Visit places</a></li>
+		 	<li><a href="My dreams.html">My Dreams</a></li>
+		 	<li><a class="big" href="Where i want to go.html">Where I want to go</a></li>
+		 </ul> 
+		</li>
+		<li><a href="Hobby.html">Hobby</a> </li>
+		<li "><a class="list" href="#">Contacts</a>
+			<ul class="drop">
+				<li><a href="Date.html">Date</a></li>
+		 		<li><a href="Write me.html">Write me</a></li>
+			</ul>
+	</ul>
+</div>
+	
+</header>
+<p>Visited places</p>
+<div class="visited">
+	
+	<figure class="hadiach animated pulse" ><img  src="Картінки/Visited places/Hadiach.jpg" alt="Hadiach">
+	<figcaption>Hadiach</figcaption> </figure>
+	<figure class="Baturin animated pulse"><img class="Baturin" src="Картінки/Visited places/i (1).jpg" alt="Батурин"> <figcaption>Baturin</figcaption></figure>
+	<figure class="Poltava animated pulse"><img  src="Картінки/Visited places/Poltava.jpg" alt="Poltava"> <figcaption>Poltava</figcaption></figure>
+	<figure ><img class=" animated mov " src="Картінки/Visited places/Берегово.jpg" alt="Berehove"><figcaption>Berehove</figcaption> </figure>
+	<figure class="Kiev  "><img class=" animated mov"  src="Картінки/Visited places/Київ.jpg" alt="Київ"> <figcaption>Kiev</figcaption></figure>
+	<figure ><img class=" animated mov"  src="Картінки/Visited places/Умань.jpg" alt="Умань"><figcaption>Uman</figcaption></figure>
+	<figure class="yalta"><img class=" animated mov"  src="Картінки/Visited places/Ялта.jpg" alt="Ялта"><figcaption>Yalta</figcaption></figure>
+	<figure class="Mykachevo"><img class=" animated mov" src="Картінки/Visited places/Мукачево.jpg" alt="Mykachevo"><figcaption>Mukachevo</figcaption></figure>
+<figure class="Mirgorod"><img class=" animated mov " src="Картінки/Visited places/2111.jpg" alt="Mirgorod">
+<figcaption>Mirgorod</figcaption></figure>
+</div>
+<script>
+	$(window).scroll(function() {
+    $('.mov').each(function(){
+      var imagePos = $(this).offset().top;
+      var topOfWindow = $(window).scrollTop();
+      if (imagePos < topOfWindow+300) {
+        $(this).addClass('pulse');
+      }
+    });
+  });
+	
+</script>
+</body>
+</html>

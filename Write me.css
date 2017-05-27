@@ -1,0 +1,40 @@
+form{
+	margin: 5%;
+	text-align: center;
+}
+#name,#email{
+	height: 20px;
+	width: 230px;
+}
+p{
+	font-size: 36px;
+	text-align: center;
+	padding-top: 20px;
+	font-family: 'Rubik', sans-serif;
+	font-weight: bold;
+}
+label{
+	font-size: 20px;
+}
+.send {
+	margin-top: 50px;
+	font-size: 15px;
+	width: 180px;
+	padding: 1.5em 3em;
+	border-radius: 10px;
+	background: #7986cb;
+	color: #fff;
+	z-index: 100;
+	border: none;
+	transition: 0.5s;
+
+	}
+	
+.send:hover {
+	background: #00A8FF;
+	width: 200px;
+	font-size: 18px;
+	transition: .5s;
+	color: #C9FFA1;
+
+	}
